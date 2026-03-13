@@ -1,0 +1,4 @@
+src/__pycache__/*
+src/pipelines/__pycache__/*
+results/model-weights/*
+results/*

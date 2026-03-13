@@ -1,0 +1,15 @@
+name: pex-env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python==3.10
+  - matplotlib
+  - openai-clip
+  - pytorch
+  - pytorch-cuda==12.1
+  - accelerate
+  - diffusers["torch"]==0.27.0
+  - transformers["torch"]
+  - numpy==1.25.2
