@@ -33,7 +33,7 @@ conda activate pex-env
 - **`src/`**: Python implementation (entrypoint in `src/main.py`).
 - **`resources/`**: input assets (patterns/masks) and model weights. 
 
-Model weights need to be downloaded separately from [this link]() and copied under the resouces folder. If you encounter any issue in the downloads, please contact us through GitHub issues or authors' emails.
+Model weights need to be downloaded separately from [this link](https://drive.google.com/drive/folders/1K6LYKQKlFzno4E3J0Yahwz0Mn_QX0VkG?usp=sharing) and copied under the resouces folder. If you encounter any issue in the downloads, please contact us through GitHub issues or authors' emails.
 
 ### Running expansion
 Once the environment has been correclty set up, you can start an expansion process by running this command.
