@@ -36,6 +36,8 @@ def args_validate(args):
         if args.input_data.suffix.lower() not in IMAGE_EXTS:
             raise ValueError(f"Unsupported image extension for --input_data: {args.input_data.suffix}")
 
+        args.input_data = [args.input_data]
+
     if not args.output_dir.exists():
         args.output_dir.mkdir(parents=True, exist_ok=True)
 
