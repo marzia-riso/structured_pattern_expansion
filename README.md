@@ -1,6 +1,6 @@
-# Structured Pattern Expansion via Diffusion Models
+# SpEx: Structured Pattern Expansion via Diffusion Models
 
-This repository contains the official implemetation for **Structured Pattern Expansion via Diffusion Models**.
+This repository contains the official implemetation for **SpEx: Structured Pattern Expansion via Diffusion Models**.
 
 <img title="teaser image" alt="Teaser" src="teaser.png"/>
 
@@ -33,7 +33,7 @@ conda activate pex-env
 - **`src/`**: Python implementation (entrypoint in `src/main.py`).
 - **`resources/`**: input assets (patterns/masks) and model weights. 
 
-Model weights need to be downloaded separately from [this link](https://drive.google.com/drive/folders/1K6LYKQKlFzno4E3J0Yahwz0Mn_QX0VkG?usp=sharing) and copied under the resouces folder. If you encounter any issue in the downloads, please contact us through GitHub issues or authors' emails.
+Model weights need to be downloaded separately from [this link](https://drive.google.com/drive/folders/1iEUUtY5jnah68q6l72H4Vvc04ARyFog6?usp=sharing) and copied under the resouces folder. If you encounter any issue in the downloads, please contact us through GitHub issues or authors' emails.
 
 ### Running expansion
 Once the environment has been correclty set up, you can start an expansion process by running this command.
@@ -49,17 +49,18 @@ where:
 - **`EXPANSION_FACTOR`** (optional) is the expansion factor for the generated images
 
 ## Citation
-For more details please check out full paper [here](https://diglib.eg.org/items/13cdbf81-d51d-4f70-abd6-ae96bd9d79d3). 
+For more details please check out full paper [here](https://www.sciencedirect.com/science/article/pii/S0097849326001536). 
 
 ```bibtex
-@inproceedings{riso2025patternexpansion,
-booktitle = {Smart Tools and Applications in Graphics - Eurographics Italian Chapter Conference},
-title = {{Structured Pattern Expansion with Diffusion Models}},
-author = {Riso, Marzia and Vecchio, Giuseppe and Pellacini, Fabio},
-year = {2025},
-publisher = {The Eurographics Association},
-ISSN = {2617-4855},
-ISBN = {978-3-03868-296-7},
-DOI = {10.2312/stag.20251330}
-}
-```
+@article{RISO2026104682,
+title = {spEx: Structured Pattern Expansion with Diffusion Models},
+journal = {Computers & Graphics},
+volume = {139},
+pages = {104682},
+year = {2026},
+issn = {0097-8493},
+doi = {https://doi.org/10.1016/j.cag.2026.104682},
+url = {https://www.sciencedirect.com/science/article/pii/S0097849326001536},
+author = {Marzia Riso and Giuseppe Vecchio and Fabio Pellacini},
+keywords = {Structured patterns, Texture synthesis, Diffusion models},
+}```
